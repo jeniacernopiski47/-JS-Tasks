@@ -1,0 +1,5 @@
+var a = 20, b = 10, c = 5;
+var max_number = Math.min(a, b , c);
+var min_number = Math.max(a, b , c);
+alert(min_number);
+alert(max_number);
