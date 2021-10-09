@@ -1,0 +1,13 @@
+let First_number = 5;
+
+if (First_number < 14 || First_number > 90) {
+    alert( true || false );
+}
+
+
+let Second_Number = 10;
+
+if (!(Second_Number >= 14 && Second_Number <= 90)){
+
+    alert(true || false);
+}
