@@ -1,0 +1,9 @@
+let UserName = 'Jenia';
+let Password = '0647';
+let UserName_input = prompt("Введите Имя!" , '');
+let Password_input = prompt("Введите Пароль!" , '');
+if(UserName == UserName_input, Password == Password_input){
+    alert("Привет Jenia");
+}else{
+    alert("Такой пользователь не найден!");
+}
