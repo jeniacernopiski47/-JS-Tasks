@@ -1,0 +1,10 @@
+
+let Username = prompt("Введите имя", '');
+alert("Привет" + Username);
+let question = confirm("Вы знакомы с языком Java Script?");
+alert(question);
+if(question == true){
+alert('Молодец!');
+}else{
+    alert('Можем начать изучение прямо сейчас!!!');
+}
