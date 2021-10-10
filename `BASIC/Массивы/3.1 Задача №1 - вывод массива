@@ -1,0 +1,50 @@
+
+//map//
+const sweetArray = [2, 3, 4, 5, 35]
+const sweeterArray = sweetArray.map(sweetItem => {
+    return sweetItem * 2
+})
+console.log(sweeterArray)
+
+ 
+
+
+//forEach//
+const massiv = [1, 2, 3]
+massiv.forEach(el => console.log(el))
+
+
+//for of //
+const a = [1, 2, 3]
+for (let v of a) {
+  console.log(v)
+}
+  
+
+
+//for//
+const b = [1, 2, 3]
+for (let i = 0; i < b.length; i += 1) {
+  console.log(b[i])
+}
+
+
+//while//
+const list1 = ['a', 'b', 'c']
+let t = 0
+while (t < list1.length) {
+  console.log(list1[t])              //значение
+  console.log(t)                    //индекс
+  t = t + 1
+}
+
+
+
+//do while
+const list = ['a', 'b', 'c']
+let i = 0
+do {
+  console.log(list[i])           //значение
+  console.log(i)             //индекс
+  i = i + 1
+} while (i < list.length)
