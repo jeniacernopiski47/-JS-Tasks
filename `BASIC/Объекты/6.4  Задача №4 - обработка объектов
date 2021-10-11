@@ -1,0 +1,11 @@
+let User1 = {
+    name: `User 1`,
+	age: 123
+}    
+
+let User2 ={
+    name: `User 2`,
+	age: 321
+    
+}
+console.log(User1 , User2);
