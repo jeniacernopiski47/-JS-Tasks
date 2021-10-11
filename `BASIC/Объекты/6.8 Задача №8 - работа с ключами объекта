@@ -1,0 +1,20 @@
+const weekDays = {
+    Mo: "Понедельник",
+    Tu: "Вторник",
+    We: "Среда",
+    Th: "Четверг",
+    Fr: "Пятница",
+    Sa: "Суббота",
+    Su: "Воскресенье",
+}
+function translate() {
+    weekDays.Mo = "Luni"
+    weekDays.Tu = "Marti"
+    weekDays.We = "Miercuri"
+    weekDays.Th = "Joi"
+    weekDays.Fr = "Vineri"
+    weekDays.Sa = "Simbata"
+    weekDays.Su = "Duminica"
+    console.log(weekDays);
+}
+translate();
