@@ -1,0 +1,23 @@
+let arrObjects = [];
+
+
+arrObjects[0] = {
+    id: "1",
+    name: "{1, 2}"
+}
+arrObjects[1] = {
+    id: "2",
+    name: "{3, 4}"
+}
+arrObjects[2] = {
+    id: "3",
+    name: "{null, 4}"
+}
+arrObjects[3] = {
+    id: "4",
+    name: "{3, undefined}"
+}
+
+delete arrObjects[2];
+delete arrObjects[3];
+console.log(arrObjects);
